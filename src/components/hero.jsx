@@ -87,8 +87,8 @@ export default function Hero() {
               className="bg-gradient-to-r cursor-pointer from-purple-600 to-pink-500 hover:from-purple-700 hover:to-pink-600 transition-all duration-300 hover:scale-105"
               onClick={() => {
                 const link = document.createElement("a");
-                link.href = "./Tabita.pdf";
-                link.download = "Tabita.pdf";
+                link.href = "./Tabita Basharat Front-end Dev Resume (1).pdf";
+                link.download = "Tabita Basharat Front-end Dev Resume (1).pdf";
                 link.click();
               }}
             >
