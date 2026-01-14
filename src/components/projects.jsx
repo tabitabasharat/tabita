@@ -11,7 +11,7 @@ const projects = [
     title: "Landing Page",
     description:
       "",
-    image: "/botmindz.jpeg?height=300&width=500",
+    image: "/botmindz.jpeg",
     tags: ["HTML/CSS","figma", "JavaScript", "Responsive Design"],
     liveLink: "https://botmindz.vercel.app/",
     // githubLink: "#",
@@ -20,7 +20,7 @@ const projects = [
     title: "Interactive UI",
     description:
       "",
-    image: "/lego.jpeg?height=300&width=500",
+    image: "/lego.jpeg",
     tags: ["React", "Styled Components","Javascript","HTML/CSS", "Figma"],
     liveLink: "https://lego-demo-project.vercel.app/",
     // githubLink: "#",
@@ -29,7 +29,7 @@ const projects = [
     title: "Evox-Investor",
     description:
       "",
-    image: "/investor.jpeg?height=300&width=500",
+    image: "/investor.jpeg",
     tags: ["React", "Styled Components","Javascript","HTML/CSS", "Figma"],
     liveLink: "https://investor-evox.vercel.app/",
 
@@ -38,7 +38,7 @@ const projects = [
     title: "Magnus",
     description:
       "",
-    image: "/magnus.jpeg?height=300&width=500",
+    image: "/magnus.jpeg",
     tags: ["React", "Styled Components","Javascript","HTML/CSS", "MUI", "Figma"],
     liveLink: "https://magnus-webapp.vercel.app/SignIn",
 
@@ -112,7 +112,8 @@ export default function Projects() {
                 <Image
                   src={project.image || "/placeholder.svg"}
                   alt={project.title}
-                  fill
+                  height={500}
+                  width={500}
                   className="object-cover transition-transform duration-500 hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-end">
